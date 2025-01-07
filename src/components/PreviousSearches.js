@@ -2,11 +2,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 export default function PreviousSearches() {
-    const searches = ['pizza', 'burger', 'cookies', 'juice', 'biriyani', 'salad', 'ice cream', 'lasagna', 'pudding', 'soup'];
+    const searches = ['pizza', 'burger', 'cookies', 'jus', 'biriyani', 'salade', 'glace', 'lasagne', 'soupe'];
 
     return (
         <div className="py-6">
-            <h2 className="text-2xl font-bold mb-4">Previous Searches</h2>
+            <h2 className="text-2xl font-bold mb-4">Recherches précédentes</h2>
             <div className="flex flex-wrap gap-2 mb-4">
                 {searches.map((search, index) => (
                     <div

@@ -8,11 +8,12 @@ export default function QuoteSection() {
       {/* Quote Text */}
       <p className="quote-text text-xl leading-relaxed text-gray-800">
         <FontAwesomeIcon icon={faQuoteLeft} className="text-primary text-2xl mr-2" />
-        Food is everything we are. It's an extension of nationalist feeling, ethnic feeling, your personal history, your province, your region, your tribe, your grandma. It's inseparable from those from the get-go.
+        
+"La nourriture est tout ce que nous sommes. C'est une extension des sentiments nationalistes, des sentiments ethniques, de votre histoire personnelle, de votre province, de votre région, de votre tribu, de votre grand-mère. 
+C'est indissociable de tout cela dès le départ."
       </p>
 
-      {/* Quote Author */}
-      <p className="quote-author text-gray-500 text-right mt-4">- Anthony Bourdain</p>
+      
     </div>
   )
 }

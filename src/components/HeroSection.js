@@ -16,15 +16,13 @@ export default function HeroSection() {
       {/* Typography Section */}
       <div className="flex-1 md:pr-4">
         <h1 className="text-4xl font-bold mb-4 text-gray-800">
-          What Are We About
+         Qui sommes nous ?
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-          FoodiesHub is a place where you can please your soul and tummy with
-          delicious food recipes of all cuisine. And our service is absolutely
-          free. So start exploring now.
+        Ce site est un lieu où vous pouvez ravir votre âme et votre estomac avec de délicieuses recettes de cuisine du monde entier.
         </p>
         <button className="bg-yellow-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-yellow-600 transition">
-          Explore Now
+        Explorez maintenant
         </button>
       </div>
 

@@ -14,13 +14,13 @@ export default function RecipeCard({ recipe }) {
                     {recipe.title}
                 </p>
                 <p className="text-gray-600 text-sm mt-2 text-center">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Exelente recette
                 </p>
                 <a
                     href="#!"
                     className="block mt-4 text-center text-blue-600 font-semibold hover:text-blue-800 transition"
                 >
-                    VIEW RECIPE
+                    Voir la recette
                 </a>
             </div>
         </div>

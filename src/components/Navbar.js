@@ -15,7 +15,7 @@ function Navbar() {
             to="/recipes"
             className="hover:text-yellow-400 transition duration-300"
           >
-            Recipes
+            Recette
           </Link>
         </li>
         <li>
@@ -23,7 +23,7 @@ function Navbar() {
             to="/settings"
             className="hover:text-yellow-400 transition duration-300"
           >
-            Settings
+            Parametre
           </Link>
         </li>
       </ul>
